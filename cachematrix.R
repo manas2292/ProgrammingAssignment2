@@ -1,7 +1,7 @@
 ## This function caches the inverse of a matrix, if it is being repeated.
 
 ## makeCacheMatrix creates a list that contains a function to set the value of the vector, get the value of the vecor
-## Set the value of the inverse and to get the value of the inverse. 
+## Set the value of the inverse and to get the value of the matrix inverse. 
 
 makeCacheMatrix <- function(x = matrix()) {
                 inv <- NULL
